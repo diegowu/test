@@ -16,4 +16,5 @@
 | chat01 | text |  | yes |  | 导服与领队沟通记录 |
 | chat02 | text|  | yes |  | 导服与计调沟通记录 |
 | notice | tinyint(1)| 1 | yes |  | 是否通知领队 |
-| chat01 | int(11) | 0 | yes |  | 导服与领队沟通记录 |
+| is_del | int(11) | 0 | yes |  | 导服与领队沟通记录 |
+| is_read | int(11) | 0 | yes |  | 导服与领队沟通记录 |
