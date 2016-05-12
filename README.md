@@ -172,14 +172,18 @@
 | teamno | varchar(128) |  | NO |  | 团号 |
 | travelName | varchar(256) |  | NO |  | 团队名称 |
 | starttime | date |  | NO |  | 团队时间 |
-| starttime | date |  | NO |  | 团队时间 |
-| starttime | date |  | NO |  | 团队时间 |
-| starttime | date |  | NO |  | 团队时间 |
-| starttime | date |  | NO |  | 团队时间 |
-| starttime | date |  | NO |  | 团队时间 |
-| starttime | date |  | NO |  | 团队时间 |
-| starttime | date |  | NO |  | 团队时间 |
-
+| endtime | date |  | NO |  | 结束时间 |
+| people | varchar(32) |  | NO |  | 团队人数 |
+| guide | varchar(32) |  | NO |  | 导游 |
+| localtravelagency | varchar(64) |  | NO |  | 地接社 |
+| localguide | varchar(32) |  | NO |  | 地接导游 |
+| localguideservice | varchar(64) |  | NO |  | 地接导游服务 |
+| driver | varchar(32) |  | NO |  | 司机 |
+| driver | varchar(32) |  | NO |  | 司机 |
+| driver | varchar(32) |  | NO |  | 司机 |
+| driver | varchar(32) |  | NO |  | 司机 |
+| driver | varchar(32) |  | NO |  | 司机 |
+| driver | varchar(32) |  | NO |  | 司机 |
 
 
 
