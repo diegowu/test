@@ -80,9 +80,22 @@
 | average | float(11,2)  | 0.00 |NO |  | 平均分 |
 | state | enum('0','1')  |  |yes |  | '0停用，1正常' |
 | isdel | enum('0','1')  |  |yes |  | '0、正常,1、删除' |
-| guideno | varchar(32)  |  |yes |  | 导游证号 |
-
-
+| haveaccount | enum('0','1')  | 0 |yes |  | 0表示未创建登陆账号,1已创建 |
+| operator | varchar(32)  | 0 |yes |  | '创建人' |
+| photo | varchar(100)  |  |yes |  | 自定义头像 |
+| createtime | timestamp  | CURRENT_TIMESTAMP |NO |  | 创建时间 |
+| zhaopian | varchar(200) | 0 |yes |  | 工作照片 |
+| cat | varchar(13)  |  |yes |  | 领队分类 |
+| click | int(10)  | 100 |yes |  | 点击次数 |
+| sign | varchar(100)  |  |yes |  | 个性签名 |
+| score1 | float(10,1)  | 5.0 |yes |  | 责任心平均分 |
+| score2 | float(10,1)  | 5.0 |yes |  | 性格分平均分 |
+| score3 | float(10,1)  | 5.0 |yes |  | 组织能力分平均分 |
+| score4 | float(10,1)  | 5.0 |yes |  | 专业度分平均分 |
+| uid | int(11)  |  |yes |  | 用户id(个人领地id) |
+| zhan | int(20)  |  |yes |  | 点赞数 |
+| weight | int(11)  |  |yes |  | 领队权重 |
+| addr | varchar(255)  |  |yes |  | 领队详细住址 |
 
 
 
