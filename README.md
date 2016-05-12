@@ -126,8 +126,8 @@
 | gp_id | int(11) |  | NO |  | 来自出团计划安排 |
 | tr_id | int(11) |  | NO |  | 预安排路线id |
 | isdel | enum('0','1') | 0 | NO |  | 0未删除 1删除 |
-| edit_personne | varchar(24) |  | NO | | 修改的人 |
-| operator | varchar(32) |  | NO |  | 主键id |
+| edit_personne | varchar(24) |  | NO | | 谁做的修改 |
+| operator | varchar(32) |  | NO |  |  |
 | createtime | int(11) |  | NO |  | 创建时间 |
 
 
