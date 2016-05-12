@@ -4,9 +4,9 @@
 | -- | -- | -- | -- | -- | -- |
 | id | mediumint(8) unsigned |  |NO | 是 | 编号 |
 | lid | int(11) | 0 | NO |  | 领队id |
-| cat | varchar(20) | 0 | yes |  | 申请的分类 |
-| mdd | text | 0 | yes |  | 申请的目的地 |
-| beizhu | varchar(11) | 0 | yes |  | 待删除 |
-| op | int(11) | 0 | yes |  | 操作者 |
-| lid | int(11) | 0 | yes |  | 用户ID |
-| lid | int(11) | 0 | yes |  | 用户ID |
+| cat | varchar(20) |  | yes |  | 申请的分类 |
+| mdd | text |  | yes |  | 申请的目的地 |
+| beizhu | varchar(11) |  | yes |  | 待删除 |
+| op | varchar(20) |  | yes |  | 操作者 |
+| status | int(11) | 0 | yes |  | 0,未处理 1,已通过 -1,	已拒绝 -2,已取消 |
+| op_id | int(11) | 0 | yes |  | 操作者ID |
