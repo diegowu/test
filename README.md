@@ -120,8 +120,8 @@
 | lta_id | int(11) |  | NO | 是 | 主键id |
 | lid | smallint(6) |  | yes |  | 领队id |
 | things | varchar(512) |  | yes |  | 主键id |
-| starttime | date |  | yes |  | 开始时间 |
-| lta_id | int(11) |  | yes |  | 主键id |
+| starttime | date | 0000-00-00 | yes |  | 开始时间 |
+| endtime | date | 0000-00-00 | yes |  | 结束时间 |
 | lta_id | int(11) |  | yes | | 主键id |
 | lta_id | int(11) |  | yes |  | 主键id |
 | lta_id | int(11) |  | yes |  | 主键id |
