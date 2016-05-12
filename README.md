@@ -54,14 +54,24 @@
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | lid | smallint(6) |  | NO | 是 | 领队id |
-| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
-| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
-| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
-| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
-| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
-| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
-| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
-
+| cid | tinyint(4)  |  |NO |  | 所属公司编号 |
+| nick | varchar(32)  |  |NO |  | 昵称 |
+| name | varchar(32)  |  |NO |  | 真实名字 |
+| pinyin | char(1)  |  |NO |  | 昵称的首字母 |
+| sex | enum('男','女')  |  |NO |  | 性别 |
+| category | varchar(32)  |  |NO |  | 已废弃 |
+| phone | varchar(16)  |  |NO |  | 手机号码 |
+| level | enum('A','B','C','D')  |  |NO |  | 领队级别A优秀 B良 C合格 D暂时没资格带队 |
+| qq | varchar(16)  |  |NO |  | QQ号码 |
+| cardno | varchar(32)  |  |NO |  | 身份证号码 |
+| linkman | varchar(32)  |  |NO |  | 紧急联系人 |
+| cardno | varchar(32)  |  |NO |  | 身份证号码 |
+| cardno | varchar(32)  |  |NO |  | 身份证号码 |
+| cardno | varchar(32)  |  |NO |  | 身份证号码 |
+| cardno | varchar(32)  |  |NO |  | 身份证号码 |
+| cardno | varchar(32)  |  |NO |  | 身份证号码 |
+| cardno | varchar(32)  |  |NO |  | 身份证号码 |
+| cardno | varchar(32)  |  |NO |  | 身份证号码 |
 
 
 
