@@ -68,12 +68,19 @@
 | linkmanphone | varchar(16)  |  |yes |  | 紧急联电话 |
 | company | varchar(32)  |  |yes |  | 工作单位 |
 | career | varchar(32)  |  |yes |  | 职业 |
-| contract | varchar(32)  |  |NO |  | 合同 |
-| isguide | varchar(32)  |  |NO |  | 有无导游证 |
-| isleader | varchar(32)  |  |NO |  | 有无领队证 |
-| guideno | varchar(32)  |  |NO |  | 导游证号 |
-
-
+| contract | varchar(32)  |  |yes |  | 合同 |
+| isguide | enum('0','1')  |  |yes |  | 有无导游证 |
+| isleader | enum('0','1')  |  |yes |  | 有无领队证 |
+| guideno | varchar(32)  |  |yes |  | 导游证号 |
+| leaderno | varchar(32)  |  |yes |  | 领队证号 |
+| guideno | varchar(32)  |  |yes |  | 导游证号 |
+| guideno | varchar(32)  |  |yes |  | 导游证号 |
+| guideno | varchar(32)  |  |yes |  | 导游证号 |
+| guideno | varchar(32)  |  |yes |  | 导游证号 |
+| guideno | varchar(32)  |  |yes |  | 导游证号 |
+| guideno | varchar(32)  |  |yes |  | 导游证号 |
+| guideno | varchar(32)  |  |yes |  | 导游证号 |
+| guideno | varchar(32)  |  |yes |  | 导游证号 |
 
 
 
