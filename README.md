@@ -179,12 +179,18 @@
 | localguide | varchar(32) |  | NO |  | 地接导游 |
 | localguideservice | varchar(64) |  | NO |  | 地接导游服务 |
 | driver | varchar(32) |  | NO |  | 司机 |
-| driver | varchar(32) |  | NO |  | 司机 |
-| driver | varchar(32) |  | NO |  | 司机 |
-| driver | varchar(32) |  | NO |  | 司机 |
-| driver | varchar(32) |  | NO |  | 司机 |
-| driver | varchar(32) |  | NO |  | 司机 |
-
+| platenumber | varchar(32) |  | NO |  | 车牌号 |
+| seating | varchar(32) |  | NO |  | 车辆座位数 |
+| vehiclecondition | varchar(64) |  | NO |  | 车辆情况 |
+| driverservice | varchar(128) |  | NO |  | 司机服务 |
+| summary | text |  | yes |  | 导游总结 |
+| top | enum('0','1') | 0 | yes |  | 是否置顶 |
+| operator | varchar(32) |  | yes |  | 操作人 |
+| state | char(1) |  | yes |  | 日志状态 |
+| isdel | enum('1','0')| 0 | yes |  | 0正常，1删除 |
+| createtime | timestamp |  | yes |  | 创建时间 |
+| updatetime | timestamp |  | yes |  | 更新时间 |
+| is_share | tinyint(1) |  | yes |  | 是否共享 |
 
 
 
