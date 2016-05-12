@@ -130,7 +130,12 @@
 | operator | varchar(32) |  | NO |  |  |
 | createtime | int(11) |  | NO |  | 创建时间 |
 
+** 领队点赞表 **`yxk_leader_zhan` 
 
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
+| -- | -- | -- | -- | -- | -- |
+| lta_id | int(11) |  | NO | 是 | 主键id |
+| lid | smallint(6) |  | yes |  | 领队id |
 
 
 
