@@ -73,8 +73,8 @@
 | isleader | enum('0','1')  |  |yes |  | 有无领队证 |
 | guideno | varchar(32)  |  |yes |  | 导游证号 |
 | leaderno | varchar(32)  |  |yes |  | 领队证号 |
-| guideno | varchar(32)  |  |yes |  | 导游证号 |
-| guideno | varchar(32)  |  |yes |  | 导游证号 |
+| remark | varchar(32)  |  |yes |  | 备注 |
+| jobstate | enum('1','2','-1')  |  |yes |  | 1实习 2正式 -1停用 |
 | guideno | varchar(32)  |  |yes |  | 导游证号 |
 | guideno | varchar(32)  |  |yes |  | 导游证号 |
 | guideno | varchar(32)  |  |yes |  | 导游证号 |
