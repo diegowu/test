@@ -148,7 +148,7 @@
 | lid | int(11) |  | NO |  | 被点赞lid |
 | user_ip | varchar(15) |  | NO |  | 用户ip |
 | source | int(11) |  | NO |  | 点赞来源(pc、wap)|
-| add_time | int(11) |  | NO |  | 被点赞lid |
+| add_time | int(11) |  | NO |  | 点赞时间 |
 
 
 
