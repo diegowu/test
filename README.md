@@ -166,7 +166,12 @@
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | log_id | int(11) unsigned |  | NO | 是 | 日志id |
-
+| travelName | varchar(128) |  | NO |  | 旅行社名字 |
+| travelName | varchar(128) |  | NO |  | 旅行社名字 |
+| travelName | varchar(128) |  | NO |  | 旅行社名字 |
+| travelName | varchar(128) |  | NO |  | 旅行社名字 |
+| travelName | varchar(128) |  | NO |  | 旅行社名字 |
+| travelName | varchar(128) |  | NO |  | 旅行社名字 |
 
 
 
