@@ -75,11 +75,11 @@
 | leaderno | varchar(32)  |  |yes |  | 领队证号 |
 | remark | varchar(32)  |  |yes |  | 备注 |
 | jobstate | enum('1','2','-1')  |  |yes |  | 1实习 2正式 -1停用 |
-| guideno | varchar(32)  |  |yes |  | 导游证号 |
-| guideno | varchar(32)  |  |yes |  | 导游证号 |
-| guideno | varchar(32)  |  |yes |  | 导游证号 |
-| guideno | varchar(32)  |  |yes |  | 导游证号 |
-| guideno | varchar(32)  |  |yes |  | 导游证号 |
+| total_score | int(11)  | 0 |NO |  | 总分 |
+| evaluation_number | int(11)  | 0 |NO |  | 评价次数 |
+| average | float(11,2)  | 0.00 |NO |  | 平均分 |
+| state | enum('0','1')  |  |yes |  | '0停用，1正常' |
+| isdel | enum('0','1')  |  |yes |  | '0、正常,1、删除' |
 | guideno | varchar(32)  |  |yes |  | 导游证号 |
 
 
