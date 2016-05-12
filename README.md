@@ -53,8 +53,15 @@
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
-| lid | smallint(6)  |  |NO | 是 | 编号 |
-| lid | smallint(6) | 0 | NO |  | 领队id |
+| lid | smallint(6) |  | NO | 是 | 领队id |
+| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
+| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
+| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
+| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
+| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
+| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
+| cid | tinyint(4)  | 1 |NO |  | 所属公司编号 |
+
 
 
 
