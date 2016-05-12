@@ -61,17 +61,17 @@
 | sex | enum('男','女')  |  |NO |  | 性别 |
 | category | varchar(32)  |  |NO |  | 已废弃 |
 | phone | varchar(16)  |  |NO |  | 手机号码 |
-| level | enum('A','B','C','D')  |  |NO |  | 领队级别A优秀 B良 C合格 D暂时没资格带队 |
-| qq | varchar(16)  |  |NO |  | QQ号码 |
+| level | enum('A','B','C','D')  |  |yes |  | 领队级别A优秀 B良 C合格 D暂时没资格带队 |
+| qq | varchar(16)  |  |yes |  | QQ号码 |
 | cardno | varchar(32)  |  |NO |  | 身份证号码 |
-| linkman | varchar(32)  |  |NO |  | 紧急联系人 |
-| cardno | varchar(32)  |  |NO |  | 身份证号码 |
-| cardno | varchar(32)  |  |NO |  | 身份证号码 |
-| cardno | varchar(32)  |  |NO |  | 身份证号码 |
-| cardno | varchar(32)  |  |NO |  | 身份证号码 |
-| cardno | varchar(32)  |  |NO |  | 身份证号码 |
-| cardno | varchar(32)  |  |NO |  | 身份证号码 |
-| cardno | varchar(32)  |  |NO |  | 身份证号码 |
+| linkman | varchar(32)  |  |yes |  | 紧急联系人 |
+| linkmanphone | varchar(16)  |  |yes |  | 紧急联电话 |
+| company | varchar(32)  |  |yes |  | 工作单位 |
+| career | varchar(32)  |  |yes |  | 职业 |
+| contract | varchar(32)  |  |NO |  | 合同 |
+| isguide | varchar(32)  |  |NO |  | 有无导游证 |
+| isleader | varchar(32)  |  |NO |  | 有无领队证 |
+| guideno | varchar(32)  |  |NO |  | 导游证号 |
 
 
 
