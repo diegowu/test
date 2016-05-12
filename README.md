@@ -26,6 +26,7 @@
 | day | int(11) |  | NO |  | 申请某一天 |
 
 ** 领队评价表 **`yxk_leader_evaluation` 
+
 | -- | -- | -- | -- | -- | -- |
 | le_id | int(11)  |  |NO | 是 | 编号 |
 | lid | smallint(6) | 0 | NO |  | 领队id |
@@ -44,3 +45,17 @@
 | user_name | varchar(30) |  | yes |  | 前台评价者name |
 | content | text |  | yes |  | 评论内容|
 | reply | varchar(256) |  | yes |  | 前台领队回复|
+
+** 领队信息表 **`yxk_leader_info` 
+
+| -- | -- | -- | -- | -- | -- |
+| lid | smallint(6)  |  |NO | 是 | 编号 |
+| lid | smallint(6) | 0 | NO |  | 领队id |
+
+
+
+
+
+
+
+
