@@ -30,4 +30,14 @@
 | le_id | int(11)  |  |NO | 是 | 编号 |
 | lid | smallint(6) | 0 | NO |  | 领队id |
 | gp_id | int(11) |  | NO |  | 出团计划id |
-
+| responsibility | varchar(12) |  | NO |  | 责任心 |
+| temper_character | varchar(12) |  | NO |  | 脾气性格 |
+| organization_ability | varchar(12) |  | NO |  | 组织能力 |
+| professional | varchar(12) |  | NO |  | 专业程度 |
+| describe | varchar(256) |  | NO |  | 描述 |
+| reviewers | varchar(32) |  | NO |  | 评论者 |
+| operation | varchar(32) |  | NO |  | 操作者 |
+| reviewers | varchar(32) |  | NO |  | 评论者 |
+| reviewers | varchar(32) |  | NO |  | 评论者 |
+| reviewers | varchar(32) |  | NO |  | 评论者 |
+| reviewers | varchar(32) |  | NO |  | 评论者 |
