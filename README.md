@@ -161,7 +161,7 @@
 | createTime | timestamp |  | NO |  | 创建时间 |
 | cid | tinyint(4) | 1 | NO |  | 所属分站id |
 
-** 领队日志表 **`yxk_local_travel_agency` 
+** 领队日志表 **`yxk_log` 
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
