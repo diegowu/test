@@ -122,13 +122,13 @@
 | things | varchar(512) |  | yes |  | 主键id |
 | starttime | date | 0000-00-00 | yes |  | 开始时间 |
 | endtime | date | 0000-00-00 | yes |  | 结束时间 |
-| lta_id | int(11) |  | yes | | 主键id |
-| lta_id | int(11) |  | yes |  | 主键id |
-| lta_id | int(11) |  | yes |  | 主键id |
-| lta_id | int(11) |  | yes |  | 主键id |
-| lta_id | int(11) |  | yes | | 主键id |
-| lta_id | int(11) |  | yes |  | 主键id |
-| lta_id | int(11) |  | yes |  | 主键id |
+| comefrom | enum('1','2','3') |  | yes | | 由谁安排？ 1自己 2公司 3计调安排的档期 |
+| gp_id | int(11) |  | NO |  | 主键id |
+| lta_id | int(11) |  | NO |  | 主键id |
+| lta_id | int(11) |  | NO |  | 主键id |
+| lta_id | int(11) |  | NO | | 主键id |
+| lta_id | int(11) |  | NO |  | 主键id |
+| lta_id | int(11) |  | NO |  | 主键id |
 
 
 
