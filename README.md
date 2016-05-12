@@ -166,13 +166,19 @@
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | log_id | int(11) unsigned |  | NO | 是 | 日志id |
-| lid | smallint(6) |  | yes |  | 领队ID |
-| gp_id | varchar(128) |  | yes |  | 出团计划ID |
-| tr_id | varchar(128) |  | yes |  | 路线ID |
-| travelName | varchar(128) |  | yes |  | 旅行社名字 |
-| travelName | varchar(128) |  | yes |  | 旅行社名字 |
-| travelName | varchar(128) |  | yes |  | 旅行社名字 |
-
+| lid | smallint(6) |  | NO |  | 领队ID |
+| gp_id | mediumint(9) |  | NO |  | 出团计划ID |
+| tr_id | mediumint(9) |  | NO |  | 路线ID |
+| teamno | varchar(128) |  | NO |  | 团号 |
+| travelName | varchar(256) |  | NO |  | 团队名称 |
+| starttime | date |  | NO |  | 团队时间 |
+| starttime | date |  | NO |  | 团队时间 |
+| starttime | date |  | NO |  | 团队时间 |
+| starttime | date |  | NO |  | 团队时间 |
+| starttime | date |  | NO |  | 团队时间 |
+| starttime | date |  | NO |  | 团队时间 |
+| starttime | date |  | NO |  | 团队时间 |
+| starttime | date |  | NO |  | 团队时间 |
 
 
 
