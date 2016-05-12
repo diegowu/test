@@ -43,3 +43,4 @@
 | userid | int(11) |  | yes |  | 前台评价者id |
 | user_name | varchar(30) |  | yes |  | 前台评价者name |
 | content | text |  | yes |  | 评论内容|
+| reply | varchar(256) |  | yes |  | 前台领队回复|
