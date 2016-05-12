@@ -143,7 +143,12 @@
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
-
+| id | int(11) |  | NO | 是 | 主键id |
+| uid | int(11) |  | NO |  | 用户id |
+| lid | int(11) |  | NO |  | 被点赞lid |
+| user_ip | varchar(15) |  | NO |  | 用户ip |
+| source | int(11) |  | NO |  | 点赞来源(pc、wap)|
+| add_time | int(11) |  | NO |  | 被点赞lid |
 
 
 
