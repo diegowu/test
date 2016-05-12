@@ -127,8 +127,8 @@
 | tr_id | int(11) |  | NO |  | 预安排路线id |
 | isdel | enum('0','1') | 0 | NO |  | 0未删除 1删除 |
 | edit_personne | varchar(24) |  | NO | | 修改的人 |
-| operator | int(11) |  | NO |  | 主键id |
-| createtime | int(11) |  | NO |  | 主键id |
+| operator | varchar(32) |  | NO |  | 主键id |
+| createtime | int(11) |  | NO |  | 创建时间 |
 
 
 
