@@ -158,8 +158,8 @@
 | travelName | varchar(128) |  | NO |  | 旅行社名字 |
 | contacName | varchar(64) |  | NO |  | 联系人 |
 | phone | varchar(26) |  | NO |  | 联系人电话 |
-| createTime | timestamp |  | NO |  | 旅行社名字 |
-| travelName | varchar(128) |  | NO |  | 旅行社名字 |
+| createTime | timestamp |  | NO |  | 创建时间 |
+| cid | tinyint(4) | 1 | NO |  | 所属分站id |
 
 
 
