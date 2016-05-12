@@ -20,14 +20,14 @@
 | is_read | tinyint(1) | 0 | yes |  | 是否阅读 |
 
 ** 领队申请日期表 **`yxk_leader_applyday` 
-
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | id | int(10) unsigned |  |NO | 是 | 编号 |
 | qid | int(11) | 0 | NO |  | 请求id |
 | day | int(11) |  | NO |  | 申请某一天 |
 
 ** 领队评价表 **`yxk_leader_evaluation` 
-
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | le_id | int(11)  |  |NO | 是 | 编号 |
 | lid | smallint(6) | 0 | NO |  | 领队id |
@@ -48,7 +48,7 @@
 | reply | varchar(256) |  | yes |  | 前台领队回复|
 
 ** 领队信息表 **`yxk_leader_info` 
-
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | lid | smallint(6)  |  |NO | 是 | 编号 |
 | lid | smallint(6) | 0 | NO |  | 领队id |
