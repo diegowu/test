@@ -113,7 +113,11 @@
 | createtime | smallint(6) |  | yes |  | 创建时间 |
 | img | varchar(255) |  | yes |  | 感谢信内容 |
 
+** 领队时间安排表 **`yxk_leader_time_arrange` 
 
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
+| -- | -- | -- | -- | -- | -- |
+| id | int(10) unsigned |  | NO | 是 | id |
 
 
 
