@@ -102,15 +102,15 @@
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | id | int(10) unsigned |  | NO | 是 | id |
-| lid | int(11) | 0 | NO | 是 | 领队id |
-| uid | int(11) | 0 | NO | 是 | 用户id |
-| username | smallint(6) |  | NO | 是 | 用户名 |
-| title | smallint(6) |  | NO | 是 | 领队id |
-| content | smallint(6) |  | NO | 是 | 领队id |
-| weight | smallint(6) |  | NO | 是 | 领队id |
-| op | smallint(6) |  | NO | 是 | 领队id |
-| createtime | smallint(6) |  | NO | 是 | 领队id |
-| img | varchar(255) |  | NO | 是 | 领队id |
+| lid | int(11) | 0 | NO |  | 领队id |
+| uid | int(11) | 0 | NO |  | 用户id |
+| username | smallint(6) |  | NO |  | 用户名 |
+| title | smallint(6) |  | NO |  | 领队id |
+| content | smallint(6) |  | NO |  | 领队id |
+| weight | smallint(6) |  | NO |  | 领队id |
+| op | smallint(6) |  | NO |  | 领队id |
+| createtime | smallint(6) |  | NO |  | 领队id |
+| img | varchar(255) |  | NO |  | 领队id |
 
 
 
