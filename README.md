@@ -125,10 +125,10 @@
 | comefrom | enum('1','2','3') |  | yes | | 由谁安排？ 1自己 2公司 3计调安排的档期 |
 | gp_id | int(11) |  | NO |  | 来自出团计划安排 |
 | tr_id | int(11) |  | NO |  | 预安排路线id |
-| lta_id | int(11) |  | NO |  | 主键id |
-| lta_id | int(11) |  | NO | | 主键id |
-| lta_id | int(11) |  | NO |  | 主键id |
-| lta_id | int(11) |  | NO |  | 主键id |
+| isdel | enum('0','1') | 0 | NO |  | 0未删除 1删除 |
+| edit_personne | varchar(24) |  | NO | | 修改的人 |
+| operator | int(11) |  | NO |  | 主键id |
+| createtime | int(11) |  | NO |  | 主键id |
 
 
 
