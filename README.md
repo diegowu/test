@@ -23,7 +23,7 @@
 | -- | -- | -- | -- | -- | -- |
 | id | int(10) unsigned |  |NO | 是 | 编号 |
 | qid | int(11) | 0 | NO |  | 请求id |
-| day | varchar(20) |  | NO |  | 申请的分类 |
+| day | int(11) |  | NO |  | 申请那一天 |
 
 
 
