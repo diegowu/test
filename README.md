@@ -166,12 +166,12 @@
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | log_id | int(11) unsigned |  | NO | 是 | 日志id |
-| travelName | varchar(128) |  | NO |  | 旅行社名字 |
-| travelName | varchar(128) |  | NO |  | 旅行社名字 |
-| travelName | varchar(128) |  | NO |  | 旅行社名字 |
-| travelName | varchar(128) |  | NO |  | 旅行社名字 |
-| travelName | varchar(128) |  | NO |  | 旅行社名字 |
-| travelName | varchar(128) |  | NO |  | 旅行社名字 |
+| lid | smallint(6) |  | yes |  | 领队ID |
+| gp_id | varchar(128) |  | yes |  | 出团计划ID |
+| tr_id | varchar(128) |  | yes |  | 路线ID |
+| travelName | varchar(128) |  | yes |  | 旅行社名字 |
+| travelName | varchar(128) |  | yes |  | 旅行社名字 |
+| travelName | varchar(128) |  | yes |  | 旅行社名字 |
 
 
 
