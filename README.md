@@ -109,7 +109,7 @@
 | content | text |  | yes |  | 感谢信内容 |
 | weight | int(10) |  | yes |  | 权重 |
 | click | int(11) | 0 | yes |  | 点击次数 |
-| op | varchar(255) | 0 | yes |  | 领队id |
+| op | varchar(255) | 0 | yes |  | 操作者 |
 | createtime | smallint(6) |  | yes |  | 创建时间 |
 | img | varchar(255) |  | yes |  | 感谢信内容 |
 
