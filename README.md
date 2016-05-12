@@ -25,5 +25,9 @@
 | qid | int(11) | 0 | NO |  | 请求id |
 | day | int(11) |  | NO |  | 申请某一天 |
 
-
+** 领队评价表 **`yxk_leader_evaluation` 
+| -- | -- | -- | -- | -- | -- |
+| le_id | int(11)  |  |NO | 是 | 编号 |
+| lid | smallint(6) | 0 | NO |  | 领队id |
+| gp_id | int(11) |  | NO |  | 出团计划id |
 
