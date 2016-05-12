@@ -20,6 +20,7 @@
 | is_read | tinyint(1) | 0 | yes |  | 是否阅读 |
 
 ** 领队申请日期表 **`yxk_leader_applyday` 
+
 | -- | -- | -- | -- | -- | -- |
 | id | int(10) unsigned |  |NO | 是 | 编号 |
 | qid | int(11) | 0 | NO |  | 请求id |
