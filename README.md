@@ -105,12 +105,13 @@
 | lid | int(11) | 0 | yes |  | 领队id |
 | uid | int(11) | 0 | yes |  | 用户id |
 | username | smallint(6) |  | yes |  | 用户名 |
-| title | varchar(20) |  | yes |  | 领队id |
-| content | text |  | yes |  | 领队id |
-| weight | smallint(6) |  | yes |  | 领队id |
-| op | smallint(6) |  | yes |  | 领队id |
-| createtime | smallint(6) |  | yes |  | 领队id |
-| img | varchar(255) |  | yes |  | 领队id |
+| title | varchar(20) |  | yes |  | 标题 |
+| content | text |  | yes |  | 感谢信内容 |
+| weight | int(10) |  | yes |  | 权重 |
+| click | int(11) | 0 | yes |  | 点击次数 |
+| op | varchar(255) | 0 | yes |  | 领队id |
+| createtime | smallint(6) |  | yes |  | 创建时间 |
+| img | varchar(255) |  | yes |  | 感谢信内容 |
 
 
 
