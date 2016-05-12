@@ -37,7 +37,9 @@
 | describe | varchar(256) |  | NO |  | 描述 |
 | reviewers | varchar(32) |  | NO |  | 评论者 |
 | operation | varchar(32) |  | NO |  | 操作者 |
-| reviewers | varchar(32) |  | NO |  | 评论者 |
-| reviewers | varchar(32) |  | NO |  | 评论者 |
-| reviewers | varchar(32) |  | NO |  | 评论者 |
-| reviewers | varchar(32) |  | NO |  | 评论者 |
+| create_time | timestamp |  | NO |  | 创建时间 |
+| cat | tinyint(4) | 1 | NO |  | '1客人评价 2内部评价 3马甲评价' |
+| status | tinyint(4) | 0 | NO |  | -1审核不通过 0待审核 1审核通过 -2删除 |
+| userid | int(11) | 0 | NO |  | 前台评价者id |
+| user_name | int(11) | 0 | NO |  | 前台评价者name |
+| userid | int(11) | 0 | NO |  | 前台评价者id |
