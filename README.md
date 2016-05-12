@@ -154,8 +154,12 @@
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
-| id | int(11) |  | NO | 是 | 主键id |
-| uid | int(11) |  | NO |  | 用户id |
+| lta_id | int(11) |  | NO | 是 | 主键id |
+| travelName | varchar(128) |  | NO |  | 旅行社名字 |
+| contacName | varchar(64) |  | NO |  | 联系人 |
+| phone | varchar(26) |  | NO |  | 联系人电话 |
+| travelName | varchar(128) |  | NO |  | 旅行社名字 |
+| travelName | varchar(128) |  | NO |  | 旅行社名字 |
 
 
 
