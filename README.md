@@ -123,8 +123,8 @@
 | starttime | date | 0000-00-00 | yes |  | 开始时间 |
 | endtime | date | 0000-00-00 | yes |  | 结束时间 |
 | comefrom | enum('1','2','3') |  | yes | | 由谁安排？ 1自己 2公司 3计调安排的档期 |
-| gp_id | int(11) |  | NO |  | 主键id |
-| lta_id | int(11) |  | NO |  | 主键id |
+| gp_id | int(11) |  | NO |  | 来自出团计划安排 |
+| tr_id | int(11) |  | NO |  | 预安排路线id |
 | lta_id | int(11) |  | NO |  | 主键id |
 | lta_id | int(11) |  | NO | | 主键id |
 | lta_id | int(11) |  | NO |  | 主键id |
