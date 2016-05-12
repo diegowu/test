@@ -10,3 +10,7 @@
 | op | varchar(20) |  | yes |  | 操作者 |
 | status | int(11) | 0 | yes |  | 0,未处理 1,已通过 -1,	已拒绝 -2,已取消 |
 | op_id | int(11) | 0 | yes |  | 操作者ID |
+| create_time | int(11) | 0 | yes |  | 创建时间 |
+| update_time | int(11) | 0 | yes |  | 更新时间 |
+| day_history | text | 0 | yes |  | 历史申请天数 |
+| op_id | int(11) | 0 | yes |  | 操作者ID |
