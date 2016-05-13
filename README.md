@@ -135,7 +135,7 @@
 | operator | varchar(32) | 0 |  |  | 操作人 |
 | createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
-** 出团计划-全陪表 **`yxk_group_plans_leader` 
+** 出团计划-分表 **`yxk_group_plans_old` 
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
