@@ -196,12 +196,12 @@
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
-| log_id | int(11) unsigned |  | NO | 是 | 日志id |
-
-
-
-
-
+| ori_id | int(11)  |  | NO | 是 | 主键id |
+| record_type | int(4) | 0 | NO |  | 记录类型，0领队与账号记录 ，1出团计划记录，2个人档期记录 |
+| operation_way | enum('a','d','u','on','off') |  | NO |  | 操作类型，a添加操作，d删除操作，u修改操作,on是开启,off是关闭操作 |
+| operation_records | varchar(512) |  | NO |  | 操作记录信息|
+| operation_personnel | varchar(32) |  | NO |  | 操作人员|
+| operation_time | timestamp |  | NO |  | 执行操作的时间|
 
 
 
