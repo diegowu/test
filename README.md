@@ -38,7 +38,7 @@
 | reply | text |  |  |  | 回复 |
 | createtime | datetime |  |  |  | 创建时间 |
 
-** 领队组表 **`yxk_fadeback` 
+** 领队组表 **`yxk_group` 
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
