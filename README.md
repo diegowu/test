@@ -217,9 +217,9 @@
 | -- | -- | -- | -- | -- | -- |
 | ID | int(11) |  | NO | 是 | 主键id |
 | CID | mediumint(9) |  | NO |  | 圈子流水号??? |
-| AName | varchar(32)  |  | NO |  | 省的拼音 |
-
-
+| AName | varchar(512)  |  | NO |  | 路线名称 |
+| Province | varchar(32)  |  | NO |  | 路线所属省 |
+| isdel | enum('0','1')  |  | NO |  | 0删除 1正常 |
 
 
 
