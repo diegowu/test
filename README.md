@@ -18,7 +18,13 @@
 | pid | int(11) | 0 | NO |  | 父id |
 | name | varchar(20) |  | NO |  | 分类名 |
 
+** 公司表 **`yxk_cat_article` 
 
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
+| -- | -- | -- | -- | -- | -- |
+| id | int(11) |  |NO | 是 | 编号 |
+| pid | int(11) | 0 | NO |  | 父id |
+| name | varchar(20) |  | NO |  | 分类名 |
 
 
 
