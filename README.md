@@ -192,7 +192,11 @@
 | updatetime | timestamp |  | yes |  | 更新时间 |
 | is_share | tinyint(1) |  | yes |  | 是否共享 |
 
+** 操作记录表 **`yxk_operation_records` 
 
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
+| -- | -- | -- | -- | -- | -- |
+| log_id | int(11) unsigned |  | NO | 是 | 日志id |
 
 
 
