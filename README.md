@@ -205,6 +205,9 @@
 | tripsuggest | text  |  | yes |  | 行程建议 |
 | tripsummary | text  |  | yes |  | 行程/耗时 |
 | operator | varchar(32)  |  | yes |  | 操作人员 |
+| isdel | enum('0','1')  | 0 | yes |  | 0正常 1删除 |
+| createtime | timestamp  | CURRENT_TIMESTAMP | yes |  | 创建时间 |
+| operator | varchar(32)  |  | yes |  | 操作人员 |
 
 ** 操作记录表 **`yxk_operation_records` 
 
