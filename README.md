@@ -71,13 +71,19 @@
 | people | varchar(64) |  | NO |  | 人数 |
 | localtravelagency | varchar(32) |  | yes |  | 地接社 |
 | localguide | varchar(64) |  | yes |  | 地陪 |
-| localguide | varchar(64) |  | yes |  | 地陪 |
-| localguide | varchar(64) |  | yes |  | 地陪 |
-| localguide | varchar(64) |  | yes |  | 地陪 |
-| localguide | varchar(64) |  | yes |  | 地陪 |
-| localguide | varchar(64) |  | yes |  | 地陪 |
-| localguide | varchar(64) |  | yes |  | 地陪 |
-
+| guide | varchar(256) |  | yes |  | 全陪 |
+| driver | varchar(64) |  | yes |  | 司机 |
+| emergencyphone | varchar(64) |  | yes |  | 紧急联系电话 |
+| roomnumber | varchar(32) |  | yes |  | 用房数量 |
+| departuretimeandplace | varchar(256) |  | yes |  | 出发地点与时间 |
+| platenumber | varchar(32) |  | yes |  | 车牌号 |
+| platenumber | varchar(32) |  | yes |  | 车牌号 |
+| platenumber | varchar(32) |  | yes |  | 车牌号 |
+| platenumber | varchar(32) |  | yes |  | 车牌号 |
+| platenumber | varchar(32) |  | yes |  | 车牌号 |
+| platenumber | varchar(32) |  | yes |  | 车牌号 |
+| platenumber | varchar(32) |  | yes |  | 车牌号 |
+| platenumber | varchar(32) |  | yes |  | 车牌号 |
 
 
 
