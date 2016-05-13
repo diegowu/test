@@ -61,10 +61,16 @@
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | gl_id | int(11) |  |NO | 是 | 主键id |
-| lid | smallint(6) |  | NO |  | 领队ID |
-| gid | smallint(6)  |  | NO |  | 群组ID |
-| createtime | datetime |  |  |  | 创建时间 |
-
+| ID | int(11) | 0 | NO |  | 领队ID |
+| cid | tinyint(4)  | 1 | NO |  | 所属公司id |
+| teamno | varchar(32) |  | NO |  | 团号 |
+| teamno | varchar(32) |  | NO |  | 团号 |
+| teamno | varchar(32) |  | NO |  | 团号 |
+| teamno | varchar(32) |  | NO |  | 团号 |
+| teamno | varchar(32) |  | NO |  | 团号 |
+| teamno | varchar(32) |  | NO |  | 团号 |
+| teamno | varchar(32) |  | NO |  | 团号 |
+| teamno | varchar(32) |  | NO |  | 团号 |
 
 
 
