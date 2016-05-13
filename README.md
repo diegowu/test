@@ -103,7 +103,17 @@
 | teamno | varchar(64) |  |  |  | 出团单号 |
 | lid | int(11) |  | NO |  | 领队ID |
 
+** 出团计划草搞表 **`yxk_group_plans_draft` 
 
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
+| -- | -- | -- | -- | -- | -- |
+| gpd_id | int(11) |  |NO | 是 | 主键id |
+| plans_type | enum('1','2') | 1 | NO |  | 出团计划类型 |
+| fileName | varchar(128) |  | NO |  | 文件名 |
+| founder | varchar(32) |  | NO |  | 作者 |
+| createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
+| teamno | varchar(64) |  |  |  | 出团单号 |
+| lid | int(11) |  | NO |  | 领队ID |
 
 
 
