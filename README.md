@@ -208,7 +208,7 @@
 | isdel | enum('0','1')  | 0 | yes |  | 0正常 1删除 |
 | createtime | timestamp  | CURRENT_TIMESTAMP | yes |  | 创建时间 |
 | operator | varchar(32)  |  | yes |  | 操作人员 |
-| images | text  |  | yes |  | 操作人员 |
+| images | text  |  | yes |  | 行程中的图片 |
 
 ** 操作记录表 **`yxk_operation_records` 
 
