@@ -244,8 +244,8 @@
 | password | varchar(64)  | 1 | NO |  | 密码 |
 | lastlogintime | timestamp  | 0000-00-00 00:00:00 | NO |  | 最后登陆时间 |
 | createtime | timestamp  | 0000-00-00 00:00:00 | NO |  | 创建时间 |
-
-
+| state | enum('0','1')  | 0000-00-00 00:00:00 | NO |  | 已废弃 1正常,0禁用 |
+| role | tinyint(4)  | 0000-00-00 00:00:00 | NO |  | 已废弃 角色 |
 
 
 
