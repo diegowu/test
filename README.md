@@ -215,9 +215,9 @@
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
-| zipcode | mediumint(9)  |  | NO | 是 | 主键id,邮编号 |
-| name | varchar(32) |  | NO |  | 省名 |
-| pinyin | varchar(32)  |  | NO |  | 省的拼音 |
+| ID | int(11) |  | NO | 是 | 主键id |
+| CID | mediumint(9) |  | NO |  | 圈子流水号??? |
+| AName | varchar(32)  |  | NO |  | 省的拼音 |
 
 
 
