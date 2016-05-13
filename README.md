@@ -203,7 +203,11 @@
 | operation_personnel | varchar(32) |  | NO |  | 操作人员|
 | operation_time | timestamp |  | NO |  | 执行操作的时间|
 
+** 省份表 **`yxk_provincial_table` 
 
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
+| -- | -- | -- | -- | -- | -- |
+| ori_id | int(11)  |  | NO | 是 | 主键id |
 
 
 
