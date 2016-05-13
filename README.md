@@ -79,7 +79,7 @@
 | platenumber | varchar(32) |  | yes |  | 车牌号 |
 | seating | varchar(32) |  | yes |  | 车位数量 |
 | money | varchar(16) | 0 | yes |  | 领队备用金 |
-| Batch | tinyint(4) |  | NO |  | '批次 |
+| Batch | tinyint(4) |  | NO |  | 老：批次 |
 | plans_type | enum('1','2') |  | NO |  | 1=活动团 2=企业团 |
 | personnel | enum('0','1') | 0 | yes |  | 废弃 0未上传名单 1已经上传名单 |
 | isevaluation | enum('0','1') | 0 | yes |  | 0未对全陪评价，1已经评价 |
