@@ -200,7 +200,7 @@
 | log_id | int(10) unsigned |  | NO |  | log表的id |
 | tripdate | varchar(32)  |  | NO |  | 行程日期 |
 | accommodation | varchar(255) |  | NO |  | 住宿 |
-| cid | tinyint(4)  |  | NO |  | 分站id |
+| catering | varchar(255)  |  | NO |  | 分站id |
 | createtime | timestamp  | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
 ** 操作记录表 **`yxk_operation_records` 
