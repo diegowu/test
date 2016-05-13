@@ -10,7 +10,7 @@
 | click | int(11) | 0 | yes |  | 点击次数 |
 | createtime | datetime |CURRENT_TIMESTAMP | yes |  | 创建时间 |
 
-** 葵花宝典-分类表 **`yxk_article` 
+** 葵花宝典-分类表 **`yxk_cat_article` 
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
