@@ -99,7 +99,7 @@
 | plans_type | enum('1','2') | 1 | NO |  | 出团计划类型 |
 | fileName | varchar(128) |  | NO |  | 文件名 |
 | founder | varchar(32) |  | NO |  | 作者 |
-| founder | varchar(32) |  | NO |  | 作者 |
+| createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 | founder | varchar(32) |  | NO |  | 作者 |
 
 
