@@ -56,7 +56,7 @@
 | gid | smallint(6)  |  | NO |  | 群组ID |
 | createtime | datetime |  |  |  | 创建时间 |
 
-** 领队群组成员表 **`yxk_group_leader` 
+** 出团计划表 **`yxk_group_plans` 
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
