@@ -91,7 +91,7 @@
 | bid | int(11) | 0 | yes |  | 分车id |
 | batch_id | smallint(4) | 1 | yes |  | 批次id |
 
-** 出团计划草搞表 **`yxk_group_plans_draft` 
+** 出团计划-草搞表 **`yxk_group_plans_draft` 
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
@@ -103,7 +103,7 @@
 | teamno | varchar(64) |  |  |  | 出团单号 |
 | lid | int(11) |  | NO |  | 领队ID |
 
-** 出团计划草搞表 **`yxk_group_plans_draft` 
+** 出团计划-费用表 **`yxk_group_plans_fee` 
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
