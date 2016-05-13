@@ -15,12 +15,9 @@
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | id | int(11) |  |NO | 是 | 编号 |
-| cid | int(11) | 0 | NO |  | 分类id |
-| title | varchar(60) |  | NO |  | 文档标题 |
-| content | text |  | NO |  | 文档内容 |
-| weight | int(11) | 10 | yes |  | 权重 |
-| click | int(11) | 0 | yes |  | 点击次数 |
-| createtime | datetime |CURRENT_TIMESTAMP | yes |  | 创建时间 |
+| pid | int(11) | 0 | NO |  | 父id |
+| name | varchar(20) |  | NO |  | 分类名 |
+
 
 
 
