@@ -64,13 +64,13 @@
 | ID | int(11) | 0 | NO |  | 领队ID |
 | cid | tinyint(4)  | 1 | NO |  | 所属公司id |
 | teamno | varchar(32) |  | NO |  | 团号 |
-| teamno | varchar(32) |  | NO |  | 团号 |
-| teamno | varchar(32) |  | NO |  | 团号 |
-| teamno | varchar(32) |  | NO |  | 团号 |
-| teamno | varchar(32) |  | NO |  | 团号 |
-| teamno | varchar(32) |  | NO |  | 团号 |
-| teamno | varchar(32) |  | NO |  | 团号 |
-| teamno | varchar(32) |  | NO |  | 团号 |
+| teamname | varchar(512) |  | NO |  | 团队名称 |
+| starttime | date |  | NO |  | 开始时间 |
+| endtime | date |  | NO |  | 结束时间 |
+| group | varchar(64) |  | NO |  | 组团社 |
+| people | varchar(64) |  | NO |  | 人数 |
+| localtravelagency | varchar(32) |  | yes |  | 地接社 |
+| teamno | varchar(32) |  | yes |  | 团号 |
 
 
 
