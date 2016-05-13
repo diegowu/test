@@ -222,7 +222,7 @@
 | isdel | enum('0','1')  |  | NO |  | 0删除 1正常 |
 | createtime | timestamp  | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
-** 旅行线路表（共享） **`yxk_travel_route` 
+** 旅行线路表（共享日志时会用到tr_id,跟上面有重叠，也有不同） **`yxk_travel_route` 
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
