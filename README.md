@@ -77,15 +77,18 @@
 | roomnumber | varchar(32) |  | yes |  | 用房数量 |
 | departuretimeandplace | varchar(256) |  | yes |  | 出发地点与时间 |
 | platenumber | varchar(32) |  | yes |  | 车牌号 |
-| platenumber | varchar(32) |  | yes |  | 车牌号 |
-| platenumber | varchar(32) |  | yes |  | 车牌号 |
-| platenumber | varchar(32) |  | yes |  | 车牌号 |
-| platenumber | varchar(32) |  | yes |  | 车牌号 |
-| platenumber | varchar(32) |  | yes |  | 车牌号 |
-| platenumber | varchar(32) |  | yes |  | 车牌号 |
-| platenumber | varchar(32) |  | yes |  | 车牌号 |
-
-
+| seating | varchar(32) |  | yes |  | 车位数量 |
+| money | varchar(16) | 0 | yes |  | 领队备用金 |
+| Batch | tinyint(4) |  | NO |  | '批次 |
+| plans_type | enum('1','2') |  | NO |  | 1=活动团 2=企业团 |
+| personnel | enum('0','1') | 0 | yes |  | 废弃 0未上传名单 1已经上传名单 |
+| isevaluation | enum('0','1') | 0 | yes |  | 0未对全陪评价，1已经评价 |
+| state | char(1) |  | yes |  | 状态(未启用) |
+| isdel | enum('0','1') | 0 | yes |  | 0正常，1删除 |
+| isold | enum('0','1') | 0 | yes |  | 0新版出团计划,1老版出团计划 |
+| operator | varchar(32) |  | yes |  | 创建人 |
+| createtime | timestamp| CURRENT_TIMESTAMP | yes |  | 创建时间 |
+| bid | int(11) | 0 | yes |  | 批次号 |
 
 
 
