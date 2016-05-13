@@ -43,10 +43,8 @@
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | gid | smallint(6) |  |NO | 是 | 主键id |
-| lid | int(11) |  | NO |  | 领队id |
-| title | varchar(50) |  | yes |  | 标题 |
-| content | text |  |  |  | 反馈内容 |
-| reply | text |  |  |  | 回复 |
+| tr_id | mediumint(9) |  | NO |  | 路线id |
+| isdel | enum('0','1')  |  | NO |  | 0删除 1正常 |
 | createtime | datetime |  |  |  | 创建时间 |
 
 
