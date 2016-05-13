@@ -56,6 +56,26 @@
 | gid | smallint(6)  |  | NO |  | 群组ID |
 | createtime | datetime |  |  |  | 创建时间 |
 
+** 领队群组成员表 **`yxk_group_leader` 
+
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
+| -- | -- | -- | -- | -- | -- |
+| gl_id | int(11) |  |NO | 是 | 主键id |
+| lid | smallint(6) |  | NO |  | 领队ID |
+| gid | smallint(6)  |  | NO |  | 群组ID |
+| createtime | datetime |  |  |  | 创建时间 |
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
