@@ -31,8 +31,8 @@
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
-| cid | tinyint(4) |  |NO | 是 | 主键id |
-| companyName | varchar(128) | 0 | NO |  | 公司名称 |
+| id | int(10) |  |NO | 是 | 主键id |
+| lid | int(11) |  | NO |  | 领队id |
 | companyfullname | varchar(128) |  | yes |  | 公司名称全称 |
 | createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
