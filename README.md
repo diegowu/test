@@ -148,7 +148,7 @@
 | isdel | enum('0','1') |  |  |  | 0正常  1删除 |
 | createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
-** 出团计划-分表 **`yxk_group_plans_old` 
+** 信息通知表 **`yxk_information` 
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
