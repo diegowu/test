@@ -100,8 +100,8 @@
 | fileName | varchar(128) |  | NO |  | 文件名 |
 | founder | varchar(32) |  | NO |  | 作者 |
 | createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
-| founder | varchar(32) |  | NO |  | 作者 |
-
+| teamno | varchar(64) |  |  |  | 出团单号 |
+| lid | int(11) |  | NO |  | 领队ID |
 
 
 
