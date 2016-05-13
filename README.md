@@ -91,7 +91,12 @@
 | bid | int(11) | 0 | yes |  | 分车id |
 | batch_id | smallint(4) | 1 | yes |  | 批次id |
 
+** 出团计划草搞表 **`yxk_group_plans_draft` 
 
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
+| -- | -- | -- | -- | -- | -- |
+| gl_id | int(11) |  |NO | 是 | 主键id |
+| ID | int(11) | 0 | NO |  | 领队ID |
 
 
 
