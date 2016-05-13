@@ -108,13 +108,13 @@
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
 | gpd_id | int(11) |  |NO | 是 | 主键id |
-| plans_type | enum('1','2') | 1 | NO |  | 出团计划类型 |
-| fileName | varchar(128) |  | NO |  | 文件名 |
-| founder | varchar(32) |  | NO |  | 作者 |
+| gp_id | int(11) |  |  |  | 出团计划ID |
+| items | varchar(64) |  | NO |  | 项目 |
+| detail | text |  | NO |  | 明细 |
+| payments | varchar(128) |  | NO |  | 款项支付 |
+| operator | varchar(32) |  |  |  | 操作人 |
+| isdel | enum('1','0') | 0 | NO |  | 0 正常  1删除 |
 | createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
-| teamno | varchar(64) |  |  |  | 出团单号 |
-| lid | int(11) |  | NO |  | 领队ID |
-
 
 
 
