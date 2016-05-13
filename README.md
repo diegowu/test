@@ -25,7 +25,7 @@
 | cid | tinyint(4) |  |NO | 是 | 主键id |
 | companyName | varchar(128) | 0 | NO |  | 公司名称 |
 | companyfullname | varchar(128) |  | yes |  | 公司名称全称 |
-| createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 分类名 |
+| createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
 
 
