@@ -85,7 +85,7 @@
 | isevaluation | enum('0','1') | 0 | yes |  | 0未对全陪评价，1已经评价 |
 | state | char(1) |  | yes |  | 状态(未启用) |
 | isdel | enum('0','1') | 0 | yes |  | 0正常，1删除 |
-| isold | enum('0','1') | 0 | yes |  | 0新版出团计划,1老版出团计划 |
+| isold | enum('0','1') | 0 | yes |  | 废弃 0新版出团计划,1老版出团计划 |
 | operator | varchar(32) |  | yes |  | 创建人 |
 | createtime | timestamp| CURRENT_TIMESTAMP | yes |  | 创建时间 |
 | bid | int(11) | 0 | yes |  | 批次号 |
