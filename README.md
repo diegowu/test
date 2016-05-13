@@ -139,8 +139,12 @@
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
-| gpd_id | int(11) |  |NO | 是 | 主键id |
+| gpo_id | int(11) |  |NO | 是 | 主键id |
 | gp_id | int(11) |  |  |  | 出团计划ID |
+| prepare | text |  |  |  | 领队准备 |
+| focus | text |  |  |  | 活动亮点 |
+| collection | text |  |  |  | 集合时间 |
+| planfee | text |  |  |  | 活动费用 |
 
 
 
