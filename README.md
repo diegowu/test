@@ -145,8 +145,8 @@
 | focus | text |  |  |  | 活动亮点 |
 | collection | text |  |  |  | 集合时间 |
 | planfee | text |  |  |  | 活动费用 |
-
-
+| isdel | enum('0','1') |  |  |  | 0正常  1删除 |
+| createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
 
 
