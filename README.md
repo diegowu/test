@@ -36,7 +36,7 @@
 | title | varchar(50) |  | yes |  | 标题 |
 | content | text |  |  |  | 反馈内容 |
 | reply | text |  |  |  | 回复 |
-
+| createtime | datetime |  |  |  | 创建时间 |
 
 
 
