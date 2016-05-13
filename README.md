@@ -202,6 +202,9 @@
 | accommodation | varchar(255) |  | yes |  | 住宿 |
 | catering | varchar(255)  |  | yes |  | 餐饮 |
 | tickets | varchar(255)  |  | yes |  | 门票 |
+| tripsuggest | text  |  | yes |  | 行程建议 |
+| tripsummary | text  |  | yes |  | 行程/耗时 |
+| operator | varchar(32)  |  | yes |  | 操作人员 |
 
 ** 操作记录表 **`yxk_operation_records` 
 
