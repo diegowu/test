@@ -232,3 +232,34 @@
 | isdel | enum('0','1') | 0 | NO |  | 0删除 1正常 |
 | cid | tinyint(4)  | 1 | NO |  | 分站id |
 | createtime | timestamp  | CURRENT_TIMESTAMP | NO |  | 创建时间 |
+
+** 用户密码表（yxk_user_info） **`yxk_travel_route` 
+
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
+| -- | -- | -- | -- | -- | -- |
+| tr_id | mediumint(9) |  | NO | 是 | 主键id |
+| zipcode | mediumint(9) |  | NO |  | 省份id |
+| route_name | varchar(128)  |  | NO |  | 路线名称 |
+| isdel | enum('0','1') | 0 | NO |  | 0删除 1正常 |
+| cid | tinyint(4)  | 1 | NO |  | 分站id |
+| createtime | timestamp  | CURRENT_TIMESTAMP | NO |  | 创建时间 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
