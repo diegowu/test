@@ -31,11 +31,11 @@
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
-| id | int(10) |  |NO | 是 | 主键id |
+| id | int(10) unsigned |  |NO | 是 | 主键id |
 | lid | int(11) |  | NO |  | 领队id |
-| companyfullname | varchar(128) |  | yes |  | 公司名称全称 |
-| createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
-
+| title | varchar(50) |  | yes |  | 标题 |
+| content | text |  |  |  | 反馈内容 |
+| reply | text |  |  |  | 回复 |
 
 
 
