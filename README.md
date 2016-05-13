@@ -122,8 +122,14 @@
 | -- | -- | -- | -- | -- | -- |
 | gpd_id | int(11) |  |NO | 是 | 主键id |
 | gp_id | int(11) |  |  |  | 出团计划ID |
-| items | varchar(64) |  | NO |  | 项目 |
-
+| lid | smallint(6) |  | NO |  | 领队ID |
+| tr_id | mediumint(9) |  |  |  | 旅游路线 |
+| nick | varchar(32) |  | NO |  | 昵称 |
+| phone | varchar(32) |  | NO |  | 电话 |
+| teamno | varchar(32) |  | NO |  | 团号 |
+| leader_type | enum('1','2','4','3') |  | NO |  | 1=主领队 2=副领队 3=跟队 4=主副不分 |
+| isread | enum('0','1') | 0 | NO |  | 该出团计划领队是否读过，0 未读，1 已读 |
+| have_log | enum('0','1') | 0 | NO |  | 出团计划该领队是否生成日志，0 未生成，1 已生成 |
 
 
 
