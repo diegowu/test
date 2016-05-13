@@ -135,6 +135,18 @@
 | operator | varchar(32) | 0 |  |  | 操作人 |
 | createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
+** 出团计划-全陪表 **`yxk_group_plans_leader` 
+
+|字段名|数据类型|默认值|允许非空|自动递增|备注|
+| -- | -- | -- | -- | -- | -- |
+| gpd_id | int(11) |  |NO | 是 | 主键id |
+| gp_id | int(11) |  |  |  | 出团计划ID |
+
+
+
+
+
+
 
 
 
