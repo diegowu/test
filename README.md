@@ -88,7 +88,7 @@
 | isold | enum('0','1') | 0 | yes |  | 废弃 0新版出团计划,1老版出团计划 |
 | operator | varchar(32) |  | yes |  | 创建人 |
 | createtime | timestamp| CURRENT_TIMESTAMP | yes |  | 创建时间 |
-| bid | int(11) | 0 | yes |  | 批次号 |
+| bid | int(11) | 0 | yes |  | 分车id |
 | batch_id | smallint(4) | 1 | yes |  | 批次id |
 
 
