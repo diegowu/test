@@ -4,20 +4,12 @@
 | -- | -- | -- | -- | -- | -- |
 | id | int(11) |  |NO | 是 | 编号 |
 | cid | int(11) | 0 | NO |  | 分类id |
-| title | varchar(60) |  | yes |  | 申请的分类 |
-| mdd | text |  | yes |  | 申请的目的地 |
-| beizhu | varchar(11) |  | yes |  | 待删除 |
-| op | varchar(20) |  | yes |  | 操作者 |
-| status | int(11) | 0 | yes |  | 0,未处理 1,已通过 -1,	已拒绝 -2,已取消 |
-| op_id | int(11) | 0 | yes |  | 操作者ID |
-| create_time | int(11) | 0 | yes |  | 创建时间 |
-| update_time | int(11) | 0 | yes |  | 更新时间 |
-| day_history | text | 0 | yes |  | 历史申请天数 |
-| chat01 | text |  | yes |  | 导服与领队沟通记录 |
-| chat02 | text|  | yes |  | 导服与计调沟通记录 |
-| notice | tinyint(1)| 1 | yes |  | 是否通知领队 |
-| is_del | tinyint(1)| 0 | yes |  | 是否已删除 |
-| is_read | tinyint(1) | 0 | yes |  | 是否阅读 |
+| title | varchar(60) |  | NO |  | 文档标题 |
+| content | text |  | NO |  | 文档内容 |
+| weight | int(11) | 10 | yes |  | 权重 |
+| click | int(11) | 0 | yes |  | 点击次数 |
+| createtime | int(11) | 0 | yes |  | 创建时间 |
+
 
 
 
