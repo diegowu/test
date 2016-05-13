@@ -196,11 +196,11 @@
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
-| tr_id | mediumint(9) |  | NO | 是 | 主键id |
-| zipcode | mediumint(9) |  | NO |  | 省份id |
-| route_name | varchar(128)  |  | NO |  | 路线名称 |
-| isdel | enum('0','1') | 0 | NO |  | 0删除 1正常 |
-| cid | tinyint(4)  | 1 | NO |  | 分站id |
+| tid | int(11) |  | NO | 是 | 主键id |
+| log_id | int(10) unsigned |  | NO |  | log表的id |
+| tripdate | varchar(32)  |  | NO |  | 行程日期 |
+| accommodation | varchar(255) |  | NO |  | 住宿 |
+| cid | tinyint(4)  |  | NO |  | 分站id |
 | createtime | timestamp  | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
 ** 操作记录表 **`yxk_operation_records` 
