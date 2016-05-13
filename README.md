@@ -199,9 +199,9 @@
 | tid | int(11) |  | NO | 是 | 主键id |
 | log_id | int(10) unsigned |  | NO |  | log表的id |
 | tripdate | varchar(32)  |  | NO |  | 行程日期 |
-| accommodation | varchar(255) |  | NO |  | 住宿 |
-| catering | varchar(255)  |  | NO |  | 分站id |
-| createtime | timestamp  | CURRENT_TIMESTAMP | NO |  | 创建时间 |
+| accommodation | varchar(255) |  | yes |  | 住宿 |
+| catering | varchar(255)  |  | yes |  | 餐饮 |
+| tickets | varchar(255)  |  | yes |  | 门票 |
 
 ** 操作记录表 **`yxk_operation_records` 
 
