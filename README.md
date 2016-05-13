@@ -70,8 +70,13 @@
 | group | varchar(64) |  | NO |  | 组团社 |
 | people | varchar(64) |  | NO |  | 人数 |
 | localtravelagency | varchar(32) |  | yes |  | 地接社 |
-| teamno | varchar(32) |  | yes |  | 团号 |
-
+| localguide | varchar(64) |  | yes |  | 地陪 |
+| localguide | varchar(64) |  | yes |  | 地陪 |
+| localguide | varchar(64) |  | yes |  | 地陪 |
+| localguide | varchar(64) |  | yes |  | 地陪 |
+| localguide | varchar(64) |  | yes |  | 地陪 |
+| localguide | varchar(64) |  | yes |  | 地陪 |
+| localguide | varchar(64) |  | yes |  | 地陪 |
 
 
 
