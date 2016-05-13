@@ -220,6 +220,6 @@
 | AName | varchar(512)  |  | NO |  | 路线名称 |
 | Province | varchar(32)  |  | NO |  | 路线所属省 |
 | isdel | enum('0','1')  |  | NO |  | 0删除 1正常 |
-
+| createtime | timestamp  | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
 
