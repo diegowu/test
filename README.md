@@ -8,7 +8,7 @@
 | content | text |  | NO |  | 文档内容 |
 | weight | int(11) | 10 | yes |  | 权重 |
 | click | int(11) | 0 | yes |  | 点击次数 |
-| createtime | int(11) | 0 | yes |  | 创建时间 |
+| createtime | datetime |CURRENT_TIMESTAMP | yes |  | 创建时间 |
 
 
 
