@@ -152,11 +152,13 @@
 
 |字段名|数据类型|默认值|允许非空|自动递增|备注|
 | -- | -- | -- | -- | -- | -- |
-| gpo_id | int(11) |  |NO | 是 | 主键id |
-| gp_id | int(11) |  |  |  | 出团计划ID |
-
-
-
+| infor_id | int(11) |  |NO | 是 | 主键id |
+| gp_id | int(11) |  |  | NO | 出团计划ID |
+| send_lid | int(11) |  |  | NO | 接受者id |
+| accept_id | int(11) |  |  | NO | 出团计划ID |
+| information | varchar(256) |  |  | NO | 发送的信息 |
+| isread | enum('0','1') | 0 |  | NO | 0未读 1已读 |
+| createtime | timestamp | CURRENT_TIMESTAMP | NO |  | 创建时间 |
 
 
 ** 领队申请表 **`yxk_leader_apply` 
