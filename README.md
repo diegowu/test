@@ -228,7 +228,7 @@
 | -- | -- | -- | -- | -- | -- |
 | tr_id | mediumint(9) |  | NO | 是 | 主键id |
 | zipcode | mediumint(9) |  | NO |  | 省份id |
-| AName | varchar(512)  |  | NO |  | 路线名称 |
-| Province | varchar(32)  |  | NO |  | 路线所属省 |
-| isdel | enum('0','1')  |  | NO |  | 0删除 1正常 |
+| route_name | varchar(128)  |  | NO |  | 路线名称 |
+| isdel | enum('0','1') | 0 | NO |  | 0删除 1正常 |
+| cid | tinyint(4)  | 1 | NO |  | 分站id |
 | createtime | timestamp  | CURRENT_TIMESTAMP | NO |  | 创建时间 |
